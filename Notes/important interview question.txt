@@ -1,0 +1,14 @@
+1.project steup
+2.components making
+3.css adding
+4.image adding
+5.tailwindcss
+6.mulity components
+7.rendering methods - primitive and non primitive
+8.variable
+9.condition, optional, nulliesh
+10.hooks usestate - rendering methods
+11. events - functions
+12. container compontents - presentation components 
+13. react router dom - broswerrouter, routes,route, route - link,
+Navalink, useNavigate(),useparams()uselocation(),default

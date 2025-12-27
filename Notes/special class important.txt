@@ -1,0 +1,54 @@
+1. what is variable?
+A variable is named container that store the data for uses in program.
+
+Variables are fundamental for working with information in JavaScript, which is a dynamically typed language, meaning the type of data a variable holds can change.
+
+let(block scope): using reassign
+
+const(block scope):- Constants (const) are variables whose values cannot be reassigned after initialization.
+
+var(functional/global):redeclare and reassign
+
+2. what is lexical scope?
+Lexical scope is the set of rules that determines variable accessibility based on the physical placement of code.
+
+why 
+Data privacy: Lets you create private variables in modules or functions.
+React relevance: Explains why event handlers and hooks can access component state even after re-renders.
+
+3. what is hoisting?
+Hoisting is JavaScript’s behavior of moving variable and function declarations to the top of their scope (global or function) during the compilation phase.
+only for declarations are hoisted, not initializations
+
+why understand hoisting?
+Hoisting explains why some variables or functions can be accessed before they’re declared.
+It helps avoid bugs like undefined values or ReferenceError.
+
+4. what is closure function?	
+A closure is a function that “remembers” the variables from its lexical scope, even after that scope has finished executing.
+
+Inner functions can access variables defined in their outer function, even when the outer function is no longer active.
+
+why use closure
+Data privacy: You can hide variables from the global scope.
+Functions can “remember” values between calls.
+
+5.what is scope?
+Scope determines where variables and functions are accessible in your code.
+
+why Scope Matter
+- Prevents variable name conflicts.
+- Controls data privacy (important in closures and React hooks).
+- Helps write clean, predictable code.
+- Essential for understanding hoisting and closures.
+
+4 type of scope
+
+1.Global Scope:Variables declared outside any function/block are accessible everywhere.
+
+2.Function Scope: Variables declared with var inside a function are only accessible within that function.
+
+3.Block Scope: Variables declared with let or const are only accessible inside the {} block.
+
+4.Lexical Scope: Inner functions can access variables from their outer functions (closures).
+

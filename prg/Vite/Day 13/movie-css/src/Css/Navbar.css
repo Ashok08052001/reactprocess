@@ -1,0 +1,61 @@
+/* Navbar container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #1e3c72, #2a5298); /* Stylish gradient */
+  padding: 5px 25px;
+  box-shadow: 0 px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.navbar-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #f0f0f0;
+  letter-spacing: 2px;
+  transition: transform 0.3s ease;
+}
+
+.navbar-title:hover {
+  transform: scale(1.05);
+}
+
+/* Menu list */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu items */
+.navbar-item {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #f0f0f0;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect with underline animation */
+.navbar-item::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #ffcc00;
+  transition: width 0.3s ease;
+}
+
+.navbar-item:hover {
+  color: #ffcc00;
+}
+
+.navbar-item:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,45 @@
+{
+  "profileid": [
+    {
+      "id": 1,
+      "name": "Arun Kumar",
+      "role": "Frontend Developer",
+      "email": "arun@gmail.com",
+      "city": "Chennai",
+      "image": "https://i.pravatar.cc/150?img=32",
+      "skills": ["HTML", "CSS", "JavaScript", "React"]
+    },
+    {
+      "id": 2,
+      "name": "Priya ",
+      "role": "UI/UX Designer",
+      "email": "priya@gmail.com",
+      "city": "Bangalore",
+      "image": "https://i.pravatar.cc/150?img=44",
+      "skills": ["Figma", "Adobe XD", "Photoshop"]
+    },
+    {
+      "id": 3,
+      "name": "Ananya Sharma",
+      "role": "Data Scientist",
+      "email": "ananya@gmail.com",
+      "city": "Delhi",
+      "image": "https://i.pravatar.cc/150?img=50",
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "Machine Learning",
+        "Data Visualization"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Vikram Singh",
+      "role": "DevOps Engineer",
+      "email": "vikram@gmail.com",
+      "city": "Pune",
+      "image": "https://i.pravatar.cc/150?img=48",
+      "skills": ["AWS", "Docker", "Kubernetes", "CI/CD"]
+    }
+  ]
+}

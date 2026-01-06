@@ -3,11 +3,11 @@ import { useState } from "react";
 const Recipes = () => {
   const [recipes, setRecipes] = useState([]);
 
-  const showRecipes = async () => {
-    const recipessdata = await fetch("https://dummyjson.com/recipes");
-    const datas = await recipessdata.json();
-    setRecipes(datas.recipes);
-  };
+    const showRecipes = async () => {
+      const recipessdata = await fetch("https://dummyjson.com/recipes");
+      const datas = await recipessdata.json();
+      setRecipes(datas.recipes);
+    };
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-purple-600 via-pink-500 to-red-500 animate-gradient-x p-10">

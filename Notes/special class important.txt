@@ -28,7 +28,6 @@ It helps avoid bugs like undefined values or ReferenceError.
 A closure is a function that “remembers” the variables from its lexical scope, even after that scope has finished executing.
 
 Inner functions can access variables defined in their outer function, even when the outer function is no longer active.
-
 why use closure
 Data privacy: You can hide variables from the global scope.
 Functions can “remember” values between calls.
@@ -51,4 +50,28 @@ why Scope Matter
 3.Block Scope: Variables declared with let or const are only accessible inside the {} block.
 
 4.Lexical Scope: Inner functions can access variables from their outer functions (closures).
+
+
+class 2
+1.Which array method returns a new array always?
+ 1. map - The map() methods create a new array by applying a function to each element.
+ 2. filter() - The filter() method returns a new array containing only the elements that pass a test.
+ 3. slice() - The slice() method produces a new array with selected elements from the original array.
+ 4. concat() - The concat() method joins arrays or values together into a new array.
+ 5. flat() - The flat() method returns a new array with nested arrays flattened.
+ 6. flatMap() - The flatMap() method maps each element and then flattens the result into a new array.
+
+short explain:
+
+map(): Transforms each element based on a callback function.
+
+Filter(): Returns a new array with elements that pass the test.
+
+Slice(): Extracts a portion of the array without modifying the original.
+
+Combine(): Combines arrays or values into a new array.
+
+
+1. array
+2.array method  callback*
 

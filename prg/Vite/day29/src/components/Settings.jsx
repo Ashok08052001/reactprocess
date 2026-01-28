@@ -26,7 +26,7 @@ const Settings = () => {
         <button
           onClick={() => setFontSize(fontSize + 2)}
           className="px-4 py-2 rounded-md bg-green-500 text-white hover:bg-green-600 transition"
-        >
+        >   
           Increase (+2)
         </button>
       </div>

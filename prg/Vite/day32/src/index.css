@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Basic page setup */
+html,
+body,
+#root {
+  height: 100%;
+}
+body {
+  @apply bg-white;
+}
+
+/* Theme classes (used by ThemeSwitcher) */
+.theme-light {
+  background-color: #ffffff;
+  color: #111827;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+} 
+
+.theme-dark {
+  background-color: #0f172a;
+  color: #f8fafc;
+  transition:
+    background-color 0.2s,
+    color 0.2s;
+}
